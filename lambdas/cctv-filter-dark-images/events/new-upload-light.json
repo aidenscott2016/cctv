@@ -1,0 +1,38 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "eu-west-2",
+            "eventTime": "2021-04-02T21:45:36.562Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "AWS:AIDA5NJ2KHQJAXJTY6J2L"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "2.223.217.71"
+            },
+            "responseElements": {
+                "x-amz-request-id": "S4WDJTB38FSW3AV3",
+                "x-amz-id-2": "6xozwh/UxR4nxHqoMkI2abXKTWgbdfvRcgr7rNGLDLUuAE9newlp7zwoa4z6x8XGOYUdHsiARYTmRzlB2EUu2JVmVlRP9Ls1"
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "cctv-filter-dark-images-dev-hello-68a737133cefb25bff959852b8f04754",
+                "bucket": {
+                    "name": "aidens-cool-bucket",
+                    "ownerIdentity": {
+                        "principalId": "A3J988P3KAC24F"
+                    },
+                    "arn": "arn:aws:s3:::aidens-cool-bucket"
+                },
+                "object": {
+                    "key": "light.jpg",
+                    "size": 113314,
+                    "eTag": "238810bac55c19b1938462a7d3d4e8bc",
+                    "sequencer": "0060679082AE7261ED"
+                }
+            }
+        }
+    ]
+}
